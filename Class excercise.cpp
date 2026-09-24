@@ -1,3 +1,4 @@
+// This is the DS18B20 listing for the digital-sensor classwork
 //Thermometer with thermistor
 // ## CHECK ACTUAL setup resistance
 //These values are in the datasheet
@@ -27,14 +28,14 @@ class Thermistor {
       // Read the analog value from the thermistor
       // Calculate the voltage across the thermistor
       // Calculate the resistance of the thermistor
-      // Calculate the temperature in Kelvin using the Steinhart-Hart equation
+      // Calculate the temperature in Kelvin using the beta parameter equation
       // Convert Kelvin to Celsius
-      // Steinhart-Hart equation: 1/T = 1/T0 + (1/B) * ln(R/R0)
+      // Beta parameter equation: 1/T = 1/T0 + (1/B) * ln(R/R0)
       // Where T is the temperature in Kelvin, T0 is the nominal temperature in Kelvin,
       // B is the beta coefficient, R is the resistance of the thermistor, and R0 is the nominal resistance.
       // Calculate the voltage across the thermistor
       // Calculate the resistance of the thermistor
-      // Calculate the temperature in Kelvin using the Steinhart-Hart equation
+      // Calculate the temperature in Kelvin using the beta parameter equation
       // Convert Kelvin to Celsius by returning temperatureK - 273.15
       float vThermistor = (supplyVoltage_ / 1023.0) * sensorValue;
       float vSeries = supplyVoltage_ - vThermistor;

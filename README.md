@@ -32,3 +32,7 @@ The **Steinhart–Hart equation** is  =a highly accurate empirical mathematical 
 ![1790247266074](image/README/1790247266074.png)
 
 ![1790247359321](image/README/1790247359321.png)
+
+## What to ADD!!!
+
+- a **circuit photo** and a **T vs time cooling plot** (≥10 points, 5 min spacing). for slide 19...
